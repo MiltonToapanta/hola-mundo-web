@@ -2,7 +2,7 @@ name: Build and Push to Docker Hub
 
 on:
   push:
-    branches: [ main ]  # Asegúrate de que tu rama principal sea 'main'
+    branches: [ master ]  # Asegúrate de que tu rama principal sea 'main'
 
 jobs:
   build-and-push:
